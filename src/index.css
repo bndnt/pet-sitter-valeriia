@@ -1,0 +1,40 @@
+:root {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+a,
+button {
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  max-width: 1460px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.containerSlider {
+  margin-left: calc((100vw - 1460px) / 2);
+}
+@media (max-width: 1460px) {
+  .container {
+    max-width: none;
+    width: calc(100% - 30px);
+  }
+  .containerSlider {
+    margin-left: 0;
+    padding: 0 0 0 15px;
+  }
+}

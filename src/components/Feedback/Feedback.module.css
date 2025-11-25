@@ -1,0 +1,119 @@
+.feedback {
+  margin: 100px 0;
+}
+.feedbackTitle {
+  font-weight: 600;
+  font-size: 48px;
+  color: #094067;
+  margin-left: 30px;
+}
+.feedbackSlider {
+  margin-top: 50px;
+  height: 470px;
+}
+.feedbackItem {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.feedbackItemCover {
+  margin: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background: #fff;
+  border-radius: 13px;
+  padding: 40px 30px;
+  height: 100%;
+}
+.feedbackText {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.6;
+  color: #094067;
+  margin-bottom: 35px;
+}
+.feedbackName {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.25;
+  color: #094067;
+}
+.feedbackLocation {
+  font-weight: 300;
+  font-size: 18px;
+  color: #4e616d;
+}
+
+@media (max-width: 1280px) {
+  .feedback {
+    margin: 50px 0;
+  }
+  .feedbackTitle {
+    font-size: 48px;
+    margin: 0;
+    text-align: center;
+  }
+  .about__paragraf {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .feedbackTitle {
+    font-size: 38px;
+    margin: 0 0 20px;
+  }
+  .feedbackText {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  .feedbackSlider {
+    margin-top: 50px;
+    height: 400px;
+  }
+  .feedbackItemCover {
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background: #fff;
+    border-radius: 13px;
+    padding: 30px 20px;
+    height: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .feedback {
+    margin: 0 0 50px;
+  }
+}
+@media (max-width: 650px) {
+  .feedbackTitle {
+    font-size: 26px;
+    margin: 15px 0;
+  }
+
+  .feedbackText {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .feedbackName {
+    font-size: 18px;
+  }
+
+  .feedbackLocation {
+    font-weight: 300;
+    font-size: 16px;
+    color: #4e616d;
+  }
+  .feedbackSlider {
+    margin-top: 30px;
+    height: 300px;
+  }
+  .feedbackItemCover {
+    margin: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background: #fff;
+    border-radius: 13px;
+    padding: 15px 20px;
+    height: 100%;
+  }
+}

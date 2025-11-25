@@ -1,0 +1,127 @@
+.about {
+}
+.about__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.about__info {
+  width: 47%;
+}
+.about__image {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  background-image: url(../../../public/bg-about.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+.about__person {
+  width: 53%;
+}
+.about__person img {
+  width: 100%;
+  /* height: 100%; */
+}
+.about__title {
+  font-weight: 700;
+  font-size: 68px;
+  line-height: 1.20588;
+  color: #094067;
+}
+.about__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55556;
+  color: #4e616d;
+}
+@media (max-width: 1280px) {
+  .about__title {
+    font-size: 38px;
+  }
+}
+@media (max-width: 991px) {
+  .about__flex {
+    display: block;
+    position: relative;
+  }
+  .about__info {
+    width: 100%;
+  }
+  .about__title {
+    margin-bottom: 400px;
+    text-align: center;
+  }
+  .about__title br {
+    display: none;
+  }
+  .about__image {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 480px;
+  }
+  .about__text {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .about__title {
+    font-size: 38px;
+    margin: 20px 0 430px;
+  }
+  .about__image {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 500px;
+  }
+}
+@media (max-width: 768px) {
+  .about__title {
+    font-size: 38px;
+    margin: 20px 0 298px;
+  }
+  .about__image {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 320px;
+  }
+  .about__text {
+    font-size: 16px;
+  }
+}
+@media (max-width: 650px) {
+  .about__title {
+    font-size: 26px;
+    margin: 20px 0 298px;
+  }
+  .about__image {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 320px;
+  }
+  .about__text {
+    font-size: 16px;
+  }
+}
+@media (max-width: 390px) {
+  .about__title {
+    font-size: 26px;
+    margin: 20px 0 290px;
+  }
+  .about__image {
+    top: 70px;
+  }
+}
