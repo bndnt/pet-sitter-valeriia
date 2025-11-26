@@ -34,3 +34,28 @@
 .header__nav li a:hover {
   color: #094067;
 }
+@media (max-width: 991px) {
+  .header__nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .header__nav {
+    display: none;
+  }
+  .header__flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+  }
+  .header {
+    margin: 20px 0 40px;
+  }
+  .logo img {
+    width: 44px;
+    height: 42px;
+  }
+}

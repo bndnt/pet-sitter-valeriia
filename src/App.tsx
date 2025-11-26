@@ -8,6 +8,7 @@ import Services from "./components/Services/Services";
 import Feedback from "./components/Feedback/Feedback";
 import Faq from "./components/Faq/Faq";
 import Footer from "./components/Footer/Footer";
+import Modal from "./components/Modal/Modal";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Feedback />
       <Faq />
       <Footer />
+      <Modal />
     </>
   );
 }
