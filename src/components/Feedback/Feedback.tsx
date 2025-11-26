@@ -1,8 +1,7 @@
 import css from "./Feedback.module.css";
 import { feedbacks } from "../../data/feedback";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Mousewheel } from "swiper/modules";
-import "swiper/css/navigation";
+
 import { Autoplay } from "swiper/modules";
 
 import "swiper/css";

@@ -1,6 +1,5 @@
 import css from "./Services.module.css";
 import { servicesData } from "../../data/services";
-import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Mousewheel } from "swiper/modules";
