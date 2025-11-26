@@ -12,8 +12,8 @@ export const servicesData: ServiceItem[] = [
     title: "Drop-In Visits",
     description:
       "Short check-ins to feed, refresh water, clean litter boxes or cages, and give affection. Perfect for cats, small pets, and independent dogs.",
-    icon: "../../public/services/p1.svg",
-    background: "../../public/services/s1.svg",
+    icon: "/p1.svg",
+    background: "/s1.svg",
     price: "$15 / hour",
   },
   {
@@ -21,8 +21,8 @@ export const servicesData: ServiceItem[] = [
     title: "Dog Walking",
     description:
       "Daily or occasional walks adjusted to your dog’s pace and energy. Safe routes, steady movement, and friendly interaction throughout the walk.",
-    icon: "../../public/services/p2.svg",
-    background: "../../public/services/s2.svg",
+    icon: "/p2.svg",
+    background: "/s2.svg",
     price: "$17 / hour",
   },
   {
@@ -30,8 +30,8 @@ export const servicesData: ServiceItem[] = [
     title: "Overnight Care",
     description:
       "Overnight companionship in your home for pets needing routine, comfort, or close supervision. Great for anxious pets or those with special schedules.",
-    icon: "../../public/services/p3.svg",
-    background: "../../public/services/s3.svg",
+    icon: "/p3.svg",
+    background: "/s3.svg",
     price: "$40 / night",
   },
   {
@@ -39,8 +39,8 @@ export const servicesData: ServiceItem[] = [
     title: "Pet Boarding ",
     description:
       "A quiet and comfortable home space for cats and small pets like rabbits or guinea pigs. Gentle care, playtime, and a calm environment during their stay.",
-    icon: "../../public/services/p4.svg",
-    background: "../../public/services/s4.svg",
+    icon: "/p4.svg",
+    background: "/s4.svg",
     price: "$30 / night",
   },
   {
@@ -48,8 +48,8 @@ export const servicesData: ServiceItem[] = [
     title: "Photo Updates",
     description:
       "Regular photo and video updates so you always feel close to your pet. Stay confident and connected no matter how far you are.",
-    icon: "../../public/services/p5.svg",
-    background: "../../public/services/s1.svg",
+    icon: "/p5.svg",
+    background: "/s1.svg",
     price: "Free",
   },
   {
@@ -57,8 +57,8 @@ export const servicesData: ServiceItem[] = [
     title: "Special Care ",
     description:
       "Support for pets with mobility limits, anxiety, or medical routines. Patient, attentive care tailored to their comfort and individual needs.",
-    icon: "../../public/services/p6.svg",
-    background: "../../public/services/s2.svg",
+    icon: "/p6.svg",
+    background: "/s2.svg",
     price: "$19 / hour",
   },
 ];

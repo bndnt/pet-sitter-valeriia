@@ -58,7 +58,6 @@ const Services = () => {
                   <h4 className={css.aboutItemContent}>{item.title}</h4>
                   <p className={css.aboutItemDescription}>{item.description}</p>
                   <p className={css.aboutItemDescription}>
-                    {" "}
                     <b>{item.price}</b>
                   </p>
                 </SwiperSlide>
