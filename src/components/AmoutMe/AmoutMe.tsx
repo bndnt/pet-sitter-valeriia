@@ -1,6 +1,5 @@
 import css from "./AmoutMe.module.css";
 import Valeriia from "../../../public/valeriia.png";
-import Bg from "../../../public/bg-about.svg";
 
 const AmoutMe = () => {
   return (
@@ -40,9 +39,6 @@ const AmoutMe = () => {
                 <div className={css.about__person}>
                   <img src={Valeriia} alt="Valeriia Makushchenko" />
                 </div>
-                {/* <div className={css.about__bg}>
-                    <img src={Bg} alt="bg" />
-                  </div> */}
               </div>
             </div>
           </div>
